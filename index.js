@@ -43,10 +43,10 @@ for (let tim = 0; tim < 4; tim++){
   const random = Math.floor(Math.random() * arr.length + 1);
   splashText.innerHTML = arr[Math.floor(Math.random()*arr.length)] + "!";
   splashText.animate([
-    { transform: 'translateY(2vw)' },
+    { transform: 'translateY(-2vw)' },
     { transform: 'translateY(0vw)' }
   ], {
-    duration: 500,
+    duration: 300,
     iterations: 5,
     easing: "ease-out",
   });
