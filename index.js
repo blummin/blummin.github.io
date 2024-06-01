@@ -24,4 +24,4 @@ var arr = [
 ];
 const random = Math.floor(Math.random() * arr.length + 1);
 
-splashText.innerHTML = "It's blumming " + arr[Math.floor(Math.random()*arr.length)] + "!";
+splashText.innerHTML = arr[Math.floor(Math.random()*arr.length)] + "!";
