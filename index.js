@@ -47,6 +47,6 @@ for (let tim = 0; tim < 4; tim++){
     { transform: 'translateY(-300px)' }
   ], {
     duration: 1000,
-    iterations: 1;
+    iterations: 1,
   });
 }
