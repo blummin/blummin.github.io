@@ -54,5 +54,5 @@ splashText.animate([
 for (let tim = 0; tim < 4; tim++){
   splashText.innerHTML = arr[Math.floor(Math.random()*arr.length)] + "!";
   document.write(5 + 6);
-  sleep(1);
+  sleep(300);
 }
