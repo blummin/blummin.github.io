@@ -53,5 +53,5 @@ for (let tim = 0; tim < 4; tim++){
     iterations: 5,
     easing: "cubic-bezier(0.05, 0.75, 0.55, 0.75)",
   });
-  await sleep(300);
+    sleep(300);
 }
