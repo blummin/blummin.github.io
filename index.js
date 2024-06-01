@@ -41,7 +41,7 @@ var arr = [
 
 for (let tim = 0; tim < 4; tim++){
   const random = Math.floor(Math.random() * arr.length + 1);
-  splashText.innerHTML = arr[Math.floor(Math.random()*arr.length)] + "!"
+  splashText.innerHTML = arr[Math.floor(Math.random()*arr.length)] + "!";
   splashText.animate([
     { transform: 'translateY(0px)' },
     { transform: 'translateY(-300px)' }
