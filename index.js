@@ -1,6 +1,4 @@
 const splashText = document.getElementById("splashText");
-const random = Math.floor(Math.random() * 9);
-
 var arr = [
   "amazing",
   "weird",
@@ -11,5 +9,6 @@ var arr = [
   "crazy",
   "cold"
 ];
+const random = Math.floor(Math.random() * arr.length + 1);
 
 splashText.innerHTML = "It's blumming " + arr[Math.floor(Math.random()*arr.length)] + "!";
