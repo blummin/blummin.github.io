@@ -57,7 +57,8 @@ var i = 0;
 var jeez = setInterval(function () {
   splashText.innerHTML = arr[Math.floor(Math.random()*arr.length)] + "!";
   ++i
-  if (i == 5) {
+  if (i == 4) {
+    splashText.style.color = "white";
     window.clearInterval(jeez);
   }
 }, 300);
