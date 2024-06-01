@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+html {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   color: white;
-  font-family: Arial;
+  font-family: Kumbh Sans;
+  font-weight: 900;
   background: rgb(0,16,68);
   background: linear-gradient(90deg, rgba(0,16,68,1) 0%, rgba(0,111,89,1) 100%);
 }
 
-nav{
+nav {
   z-index: 99;
   background-color: yellow;
   padding: 6px;
@@ -14,10 +24,14 @@ nav{
   align-items: center;
 }
 
-.navlink{
+.navlink {
   background-color: white;
   display: block;
   width: 100px;
   padding: 5px;
   margin: 8px 5px 8px;
+}
+
+.beforeWord {
+  color: #FFFFFFBF;
 }
