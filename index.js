@@ -56,7 +56,7 @@ splashText.animate([
 var i = 0;
 setInterval(function () {
   splashText.innerHTML = arr[Math.floor(Math.random()*arr.length)] + "!";
-  var i = i++
+  ++i
   if (i == 5) {
     window.clearInterval();
   }
