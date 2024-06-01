@@ -48,6 +48,6 @@ for (let tim = 0; tim < 4; tim++){
   ], {
     duration: 300,
     iterations: 5,
-    easing: "ease-out",
+    easing: "cubic-bezier(0, 0, 0.2, 1)",
   });
 }
