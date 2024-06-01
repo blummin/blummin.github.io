@@ -7,7 +7,20 @@ var arr = [
   "hilarious",
   "beautiful",
   "crazy",
-  "cold"
+  "cold",
+  "spectacular",
+  "mingin",
+  "warm",
+  "freezing",
+  "boiling",
+  "epic",
+  "important",
+  "magical",
+  "funny",
+  "mad",
+  "nice",
+  "friendly",
+  "kind"
 ];
 const random = Math.floor(Math.random() * arr.length + 1);
 
