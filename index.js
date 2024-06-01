@@ -8,4 +8,8 @@ fetch('/words.txt')
   .then((data) => {
     console.log(data)
     words = data;
+    with open('file.txt', 'r') as file:
+      let lines = file.readlines()
+      word = lines[random]
+      print(word)
   })
