@@ -51,8 +51,11 @@ splashText.animate([
   easing: "cubic-bezier(0.05, 0.75, 0.55, 0.75)",
 });
 
-for (let tim = 0; tim < 4; tim++){
+var i = 0;
+setInterval(function () {
   splashText.innerHTML = arr[Math.floor(Math.random()*arr.length)] + "!";
-  document.write(5 + 6);
-  sleep(300);
-}
+  i++
+  if (i == 5) {
+    window.clearInterval();
+  }
+}, 1000);
