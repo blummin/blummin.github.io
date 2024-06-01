@@ -54,10 +54,10 @@ splashText.animate([
 });
 
 var i = 0;
-setInterval(function () {
+var jeez = setInterval(function () {
   splashText.innerHTML = arr[Math.floor(Math.random()*arr.length)] + "!";
   ++i
   if (i == 5) {
-    window.clearInterval();
+    window.clearInterval(jeez);
   }
 }, 300);
