@@ -1,4 +1,4 @@
-const splashText = document.getElementById("splashText");
+const splashText = document.getElementById("wordText");
 var arr = [
   "amazing",
   "weird",
