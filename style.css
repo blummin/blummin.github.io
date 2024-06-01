@@ -35,3 +35,9 @@ nav {
 .beforeWord {
   color: #FFFFFFBF;
 }
+
+.blummin {
+    width: 100%;
+    display: flex;
+    height: fit-content;
+}
