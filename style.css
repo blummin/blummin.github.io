@@ -4,3 +4,20 @@ body {
   background: rgb(0,16,68);
   background: linear-gradient(90deg, rgba(0,16,68,1) 0%, rgba(0,111,89,1) 100%);
 }
+
+nav{
+  z-index: 99;
+  background-color: yellow;
+  padding: 6px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navlink{
+  background-color: white;
+  display: block;
+  width: 100px;
+  padding: 5px;
+  margin: 8px 5px 8px;
+}
