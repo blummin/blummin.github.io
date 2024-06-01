@@ -43,3 +43,10 @@ nav {
   height: fit-content;
   font-size: 5vw;
 }
+
+.question {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+}
