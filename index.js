@@ -20,7 +20,23 @@ var arr = [
   "mad",
   "nice",
   "friendly",
-  "kind"
+  "kind",
+  "stinky",
+  "stupid",
+  "strange",
+  "dangerous",
+  "silly",
+  "suprising",
+  "angry",
+  "sad",
+  "depressing",
+  "shocking",
+  "ballistic",
+  "insane",
+  "easy",
+  "normal",
+  "hard",
+  "extreme"
 ];
 
 for (let tim = 0; tim < 4; tim++){
