@@ -42,6 +42,8 @@ var arr = [
   "extreme"
 ];
 
+splashText.innerHTML = arr[Math.floor(Math.random()*arr.length)] + "!";
+
 splashText.animate([
   { transform: 'translateY(-2vw)' },
   { transform: 'translateY(0vw)' }
@@ -54,8 +56,8 @@ splashText.animate([
 var i = 0;
 setInterval(function () {
   splashText.innerHTML = arr[Math.floor(Math.random()*arr.length)] + "!";
-  i++
+  var i = i++
   if (i == 5) {
     window.clearInterval();
   }
-}, 1000);
+}, 300);
