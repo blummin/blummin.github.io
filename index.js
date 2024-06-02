@@ -48,7 +48,7 @@ splashText.animate([
   { transform: 'translateY(-2vw)' },
   { transform: 'translateY(0vw)' }
 ], {
-  duration: 300,
+  duration: 200,
   iterations: 9,
   easing: "cubic-bezier(0.05, 0.75, 0.55, 0.75)",
 });
@@ -61,4 +61,4 @@ var jeez = setInterval(function () {
     splashText.style.color = "white";
     window.clearInterval(jeez);
   }
-}, 150);
+}, 200);
