@@ -34,6 +34,7 @@ nav {
 
 .beforeWord {
   color: #FFFFFFBF;
+  margin: 0;
   margin-right: 1vw;
 }
 
@@ -53,5 +54,6 @@ nav {
 }
 
 p#wordText {
+  margin: 0;
   color: #FFFFFF7F;
 }
