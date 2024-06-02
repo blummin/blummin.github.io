@@ -148,7 +148,7 @@ var arr = [
   "deep",
   "shallow",
   "high",
-  "low",
+  "low"
 ];
 
 splashText.innerHTML = arr[Math.floor(Math.random()*arr.length)] + "!";
