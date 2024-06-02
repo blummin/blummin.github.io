@@ -1,7 +1,5 @@
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
 const splashText = document.getElementById("wordText");
+const btn = document.getElementById("againBtn");
 var arr = [
   "amazing",
   "weird",
@@ -72,6 +70,7 @@ random();
 
 function random(){
     splashText.style.color = "#FFFFFF7F";
+    btn.style.display = "inline-block";
     splashText.innerHTML = arr[Math.floor(Math.random()*arr.length)] + "!";
     splashText.animate([
         { transform: 'translateY(-2vw)' },
