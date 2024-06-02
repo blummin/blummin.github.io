@@ -42,6 +42,7 @@ nav {
   width: 100%;
   display: flex;
   height: fit-content;
+  justify-content: center;
   font-size: 5.5vw;
 }
 
@@ -56,4 +57,16 @@ nav {
 p#wordText {
   margin: 0;
   color: #FFFFFF7F;
+}
+
+.again {
+  width: 14vw;
+  height: 3vw;
+  font-size: 1.3vw;
+  margin: 1vw;
+  border-radius: 1vw;
+  border: 0px;
+  font-family: 'Kumbh Sans';
+  color: white;
+  background: #0003;
 }
