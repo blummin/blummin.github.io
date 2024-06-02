@@ -71,7 +71,7 @@ splashText.innerHTML = arr[Math.floor(Math.random()*arr.length)] + "!";
 random();
 
 function random(){
-    splashText.style.color = #FFFFFF7F;
+    splashText.style.color = "#FFFFFF7F";
     splashText.innerHTML = arr[Math.floor(Math.random()*arr.length)] + "!";
     splashText.animate([
         { transform: 'translateY(-2vw)' },
