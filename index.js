@@ -49,7 +49,7 @@ splashText.animate([
   { transform: 'translateY(0vw)' }
 ], {
   duration: 300,
-  iterations: 5,
+  iterations: 9,
   easing: "cubic-bezier(0.05, 0.75, 0.55, 0.75)",
 });
 
