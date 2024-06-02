@@ -39,7 +39,31 @@ var arr = [
   "easy",
   "normal",
   "hard",
-  "extreme"
+  "extreme",
+  "fat",
+  "big",
+  "massive",
+  "tiny",
+  "small",
+  "idiotic",
+  "odd",
+  "dirty",
+  "expensive",
+  "difficult",
+  "clever",
+  "smart",
+  "calm",
+  "lonely",
+  "sick",
+  "honest",
+  "true",
+  "fake",
+  "false",
+  "annoying",
+  "narrow",
+  "thin",
+  "thick",
+  "tall"
 ];
 
 splashText.innerHTML = arr[Math.floor(Math.random()*arr.length)] + "!";
