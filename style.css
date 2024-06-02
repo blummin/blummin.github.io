@@ -15,6 +15,11 @@ body {
   background: linear-gradient(90deg, rgba(0,16,68,1) 0%, rgba(0,111,89,1) 100%);
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 nav {
   z-index: 99;
   background-color: yellow;
