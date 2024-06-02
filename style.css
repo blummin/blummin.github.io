@@ -61,7 +61,7 @@ p#wordText {
 
 .again {
   width: 14vw;
-  height: 3vw;
+  height: fit-content;
   font-size: 1.3vw;
   margin: 1vw;
   border-radius: 1vw;
@@ -69,4 +69,11 @@ p#wordText {
   font-family: 'Kumbh Sans';
   color: white;
   background: #0003;
+  transition: 0.5s ease-out;
+  padding: 1vw;
+}
+
+.again:hover {
+  background: #0004;
+  padding: 1.5vw;
 }
